@@ -1,0 +1,86 @@
+.gmnoprint{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+#contact-info .margin{
+	margin-top: 25px;	
+}
+#contact-photo-full-01{
+	background-image: url("../images/contact/contact-image-01.jpg");
+}
+#contact-photo-full-02{
+	background-image: url("../images/contact/contact-image-02.jpg");
+}
+#contact-photo-03{
+	background-image: url("../images/contact/contact-image-03.jpg");
+}
+#contact-photo-04{
+	background-image: url("../images/contact/contact-image-04.jpg");
+}
+#contact-photo-05{
+	background-image: url("../images/contact/contact-image-05.jpg");
+}
+
+
+
+
+
+@media screen and (min-width: 1280px){
+	.two-up .copy-half-parent, .two-up-reverse .copy-half-parent{
+	    width: 50%;
+	}
+}
+@media screen and (min-width: 2200px){
+	.two-up .copy-half-parent, .two-up-reverse .copy-half-parent {
+	    width: 33.33%;
+	}
+    .copy-half-parent{
+    	height: 33vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+	#contact .two-up{
+	    -webkit-flex-direction: column-reverse;
+	    -ms-flex-direction: column-reverse;
+	    flex-direction: column-reverse;
+	}
+	#contact .two-up-reverse {
+	    -webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	}
+	#contact .two-up div,#contact  .two-up-reverse div {
+	    height: 100vw;
+	}
+	#contact .two-up .bg-image,#contact  .two-up-reverse .bg-image{
+	    height: 100vw;
+	}
+}
+@media screen and (max-width: 600px){
+	#contact .two-up div,#contact  .two-up-reverse div {
+	    height: 100vw;
+	}
+}
+@media screen and (max-width: 480px){
+	#contact .two-up div,#contact  .two-up-reverse div {
+	    height: 133vw;
+	}
+}
+
+
+#contact-links{
+	margin-top: 20px;
+}
+#contact-links li{
+	margin-bottom: 10px;
+}
+
